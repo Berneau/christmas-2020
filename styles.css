@@ -1,0 +1,33 @@
+* { margin: 0; padding: 0; }
+
+body {
+  background-color: #f7efd4;
+}
+
+.wrapper {
+  margin: 50px;
+  height: calc(100vh - 100px);
+  width: calc(100vw - 100px);
+}
+
+svg#tree {
+  height: 100%;
+  width: 100%;
+}
+
+path {
+  stroke-width: 2px;
+  fill: none;
+}
+
+path.circle {
+  stroke: #a22c27;
+}
+
+path.trunk {
+  stroke: #929867;
+}
+
+path.letter {
+  stroke: #a22c27;
+}
