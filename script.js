@@ -1,4 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
+function startDrawing() {
+  document.getElementById('intro').classList.add('hidden');
+  document.getElementById('tree').classList.remove('hidden');
+  
   const options = {
     duration: 800,
     type: 'oneByOne' 
@@ -7,4 +10,4 @@ document.addEventListener("DOMContentLoaded", () => {
   new Vivus('tree', options, () => {
     console.log('done');
   });
-});
+}
