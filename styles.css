@@ -2,40 +2,23 @@
 
 * { margin: 0; padding: 0; }
 
-body {
-  background-color: #f7efd4;
-  font-family: 'Merienda', cursive;
-  color: #a22c27;
-}
-
-.hidden {
-  display: none!important;
-}
-
-#intro {
-  flex-direction: column;
-  align-items: center;
-  margin-top: 200px;
-  display: flex;
+html {
+  height: 100%;
   width: 100%;
 }
 
-#intro button {
+body {
   font-family: 'Merienda', cursive;
-  border: 2px solid #a22c27;
-  border-radius: 6px;
-  padding: 10px 30px;
-  margin-top: 10px;
-  background: none;
-  font-size: 18px;
-  cursor: pointer;
+  background-color: #f7efd4;
   color: #a22c27;
+  height: 100%;
+  width: 100%;
 }
 
 .wrapper {
-  margin: 50px;
-  height: calc(100vh - 100px);
-  width: calc(100vw - 100px);
+  height: calc(100% - 150px);
+  width: calc(100% - 100px);
+  padding: 50px 50px 0 50px;
 }
 
 svg#tree {
