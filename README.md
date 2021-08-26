@@ -1,2 +1,2 @@
 # Animation for Christmas 2020
-![Screenshot][christmas-2020.png]
+![Screenshot](christmas-2020.png)
